@@ -1,6 +1,7 @@
 import NameForm from './Forms/NameForm';
 import SorveteForm from './Forms/SorveteForm';
 import FileInput from './Forms/FileInput';
+import FormikForm from './Forms/FormikForm';
 
 const divStyle = {
 	color: 'black',
@@ -40,6 +41,14 @@ function App() {
 			<div style={divStyle}>
 				<FileInput />
 			</div>
+
+
+			<h2>Componente: FormikForm</h2>
+			Validação de email.
+			<div style={divStyle}>
+				<FormikForm />
+			</div>
+
 
 
 
